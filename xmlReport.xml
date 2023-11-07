@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.427">
+    <testcase classname="Validating end to end API" name="Verify if the user login sucessfully" time="2.292">
+        <system-out>
+            <![CDATA[Given Login payload with "userEmail" and "userPassword".....................passed
+When user calls LoginAPI with POST http request.............................passed
+Then the API call got success with status code 200..........................passed
+And "message" in response body is "Login Successfully"......................passed
+And verify userId and token created.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
